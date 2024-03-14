@@ -1,0 +1,13 @@
+button {
+    font-family: "helvetica neue", helvetica, sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: 2px solid orangered;
+    background-color: mintcream;
+    color: black;
+    box-shadow: 1px 1px 2px lightsalmon;
+    opacity: 40%;
+    border-radius: 10px;
+    padding: 3px 10px;
+    cursor: pointer;
+}
