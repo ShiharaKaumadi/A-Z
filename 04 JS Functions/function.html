@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Input Number Value</title>
+</head>
+<body>
+
+<label for="numberInput">Enter a number:</label>
+<input type="text" id="numberInput">
+<button onclick="convertToNumber()">Convert to Number</button>
+
+<script>
+  let finalOutput = document.createElement('div');
+  let numberValue;
+  function convertToNumber() {
+    // Get the value from the input field
+    let inputValue = document.getElementById("numberInput").value;
+
+    // Convert the input value to a number
+    numberValue = parseFloat(inputValue);
+
+    // Check if the conversion was successful
+    if (!isNaN(numberValue)) {
+      answerBox();
+    } else {
+      alert("Please enter a valid number.");
+    }
+  }
+  function answerBox(){
+    let finalOutput = document.createElement('div');
+    document.body.append(finalOutput);
+    finalOutput.style.backgroundColor = 'red';
+    finalOutput.style.top = '2px';
+    finalOutput.style.color = 'white';
+    finalOutput.style.fontSize = '14px';
+    finalOutput.style.fontFamily = '"Verdana", helvetica, sans-serif';
+    finalOutput.style.letterSpacing = '1px';
+    finalOutput.style.height = '45px';
+    finalOutput.style.margin = '2px auto';
+    finalOutput.style.justifyItems = 'center';
+    finalOutput.style.alignContent = 'center';
+    finalOutput.style.textAlign = 'center';
+    finalOutput.style.display = 'flex';
+    finalOutput.style.border = '2px solid red';
+    finalOutput.style.width = '330px';
+    finalOutput.style.borderRadius = '12px';
+    finalOutput.style.padding = '3px 30px';
+    finalOutput.innerText = `The Number You Entered : ${numberValue} `;
+
+  }
+</script>
+
+</body>
+</html>

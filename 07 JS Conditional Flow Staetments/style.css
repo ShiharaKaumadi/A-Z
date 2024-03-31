@@ -1,0 +1,153 @@
+body {
+    box-sizing: border-box;
+}
+
+#main-header {
+    font-family: "helvetica neue", helvetica, sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: black;
+    padding: 3px 10px;
+    text-align: center;
+
+
+}
+
+#sub-heading {
+    font-family: "helvetica neue", helvetica, sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: black;
+    padding: 3px 10px;
+    text-align: center;
+
+}
+
+section {
+    display: flex;
+    margin: auto;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+    top: 30px;
+    bottom: 30px;
+}
+
+#ice {
+    font-family: "Verdana", helvetica, sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: 2px solid darkorchid;
+    background-color: darkorchid;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 10px;
+    text-align: center ;
+    width: 280px;
+    margin:10px auto 10px auto;
+    text-align: center;
+}
+
+#choco {
+    font-family: "Verdana", helvetica, sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: 2px solid peru;
+    background-color: peru;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 10px;
+    width: 280px;
+    margin: auto;
+    text-align: center;
+}
+
+#answer{
+    font-family: "Verdana", helvetica, sans-serif;
+    letter-spacing: 1px;
+    border: 2px solid indianred;
+    background-color: honeydew;
+    display: flex;
+    color: black;
+    border-radius: 10px;
+    padding: 10px 10px;
+    width: 280px;
+    margin: auto;
+    text-align: center;
+}
+
+#personal-details{
+    margin: auto;
+    justify-items: center;
+    align-content: center;
+    width: 259px;
+    padding: 5px 5px 5px 5px;
+    border: 2px solid deepskyblue;
+    border-radius: 10px;
+}
+
+#firstName, #lastName, #age, #status{
+    height: 25px;
+    width: 250px;
+    padding: 3px 3px 3px 3px;
+    border-radius: 8px;
+    border: 2px solid lightskyblue;
+    color: black;
+    display: inline-flex;
+}
+
+label{
+    font-family: "Verdana", helvetica, sans-serif;
+    letter-spacing: 1px;
+    height: 25px;
+    width: 280px;
+    padding: 3px 3px 3px 3px;
+    justify-items: center;
+    align-content: center;
+    display: inline-flex;
+
+}
+
+input{
+    display: inline-flex;
+    margin: 3px auto 5px auto;
+    justify-items: center;
+    align-content: center;
+}
+
+#status{
+    margin-bottom: 10px;
+    bottom: 20px;
+}
+
+#submitBtn{
+    cursor : pointer;
+    display: flex;
+    margin: auto;
+    justify-items: center;
+    align-content: center;
+    font-family: "Verdana", helvetica, sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: 2px solid darkorchid;
+    background-color: darkorchid;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 80px;
+
+}
+#resultText{
+    margin: auto;
+    padding: 5px 5px 5px 5px;
+    justify-items: center;
+    align-content: center;
+    font-size: 15px;
+    width: 260px;
+    height: 50px;
+    font-family: "Verdana", helvetica, sans-serif;
+    color: black;
+    border-radius: 8px;
+    background-color: cornflowerblue;
+    text-align: center;
+}

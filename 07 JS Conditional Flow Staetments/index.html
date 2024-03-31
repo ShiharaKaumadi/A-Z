@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Conditional Statements in JS</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<h1 id="main-header">Conditional Statements in JS</h1>
+<section>
+    <div id="ice">
+        <p>ICE CREAM </p>
+        <p class="ice-cream-rate">⭐⭐⭐⭐⭐⭐⭐⭐⭐</p>
+        <p id="choice1"></p>
+    </div>
+    <div id="choco">
+        <p>CHOCOLATE </p>
+        <p class="chocolate-rate">⭐⭐⭐⭐⭐⭐⭐</p>
+        <p id="choice2"></p>
+    </div>
+    <div id="answer" style="height: 45px; background-color: whitesmoke; color: black;">
+        <p id="result"></p>
+    </div>
+</section>
+
+<div style="height: 60px; background-color: whitesmoke"></div>
+<h2 id="sub-heading">Personal Details</h2>
+<form id="personal-details">
+
+        <label for="firstName">First Name </label>
+        <input id="firstName" name="firstName" type="text">
+
+        <label for="lastName">Last Name </label>
+        <input id="lastName" name="lastName" type="text">
+
+        <label for="age">Age </label>
+        <input id="age" name="age" type="text">
+
+        <label for="status">Married Status </label>
+        <input id="status" name="status" type="text">
+        <button id="submitBtn" onclick="printResult()" type="button" >Submit</button>
+</form>
+<div style="margin-top:10px; margin-bottom: 10px" id="resultText">
+    <p id="rs"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
