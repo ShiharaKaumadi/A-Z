@@ -1,10 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>Guess Feelings</title>
+    <link rel="stylesheet" href="guess_style.css">
 </head>
 <body>
-$END$
+<label for="mood"><h1 id="header">Guess My Feelings</h1></label>
+<select id="mood">
+    <option class="choice" value="">😶</option>
+    <option class="choice" value="happy">😊</option>
+    <option class="choice" value="sad">😢</option>
+    <option class="choice" value="angry">😡</option>
+    <option class="choice" value="thinking">🤔</option>
+    <option class="choice" value="partying">🥳</option>
+</select>
+<p id="mood_text"></p>
+<script src="feeling_script.js"></script>
 </body>
 </html>
