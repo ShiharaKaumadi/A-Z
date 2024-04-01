@@ -1,0 +1,49 @@
+body{
+    box-sizing: border-box;
+    background-color: dimgrey;
+}
+
+#party-header{
+    text-align: center;
+    color: mintcream;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: "sans-serif",Verdana,sans-serif;
+
+}
+
+#party{
+    width:600px;
+    height:220px;
+    display: flex;
+    justify-items: center;
+    align-content: center;
+    margin: auto;
+    position: relative;
+}
+
+#tag-line{
+    text-align: center;
+    color: wheat;
+    font-family: "sans-serif",Verdana,sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 20px 20px;
+    display: flex;
+    justify-items: center;
+    align-content: center;
+    margin: auto;
+
+}
+
+#output{
+    display: block;
+    justify-items: center;
+    align-content: center;
+    margin: auto;
+    color: wheat;
+    font-size: 60px;
+    font-weight: bold;
+    padding: 20px 20px;
+
+}
