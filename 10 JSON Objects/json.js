@@ -36,3 +36,4 @@ let pet = {
 }
 
 pet.displayDetails();
+
