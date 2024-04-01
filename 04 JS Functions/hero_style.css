@@ -1,0 +1,64 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+#hero{
+    position: relative;
+    display: flex;
+    margin: auto;
+    background-image: linear-gradient(rgba(223,220,210,0.8),rgba(223,220,210,0.8));
+    justify-items: center;
+    align-content: center;
+
+}
+#hero-video{
+    position: absolute;
+    display: flex;
+    margin: auto;
+    justify-items: center;
+    align-content: center;
+    right: 0;
+    bottom: 0;
+    padding: 1px 1px;
+    z-index: -1;
+}
+
+.title-content{
+    margin: auto;
+    justify-items: center;
+    align-content: center;
+    text-align: center;
+    padding-top: 85px;
+}
+
+#hero-title{
+    font-size: 80px;
+    color: lightgoldenrodyellow;
+    font-weight: 600;
+    font-family: "Bell MT",Verdana,sans-serif;
+}
+#hero-title:hover{
+    -webkit-text-stroke: 1px mintcream;
+     color: transparent;
+}
+#hero-link{
+    text-decoration: none;
+    color: azure;
+    font-size: 25px;
+    font-family: "Castellar",Verdana,sans-serif;
+    font-weight: bold;
+    display: inline-block;
+    padding: 12px 22px;
+    border: 2px solid whitesmoke;
+    border-radius: 12px;
+
+}
+#hero-link:hover{
+    color: dimgray;
+    background-color: whitesmoke;
+    border: 2px solid dimgrey ;
+    border-radius: 12px;
+}
+
+
