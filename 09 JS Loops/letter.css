@@ -1,0 +1,17 @@
+body{
+    box-sizing: border-box;
+    background-color: mintcream;
+}
+
+#topic{
+    text-align: center;
+    color: dimgrey;
+    font-size: 45px;
+    font-weight: bold;
+    font-family: "Baskerville Old Face",Verdana,sans-serif;
+    padding: 12px 12px;
+
+}
+
+#node {
+}
