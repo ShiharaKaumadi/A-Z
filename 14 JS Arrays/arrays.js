@@ -157,7 +157,3 @@ console.log(sortMonths);//👇 output
 */
 console.log(sortMonths.length);//12
 
-
-
-
-

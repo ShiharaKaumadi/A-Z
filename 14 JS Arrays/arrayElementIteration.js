@@ -17,6 +17,12 @@ for (let i = 0; i < fruits.length; i++) {
 */
 
 //for each loop
+
+/*
+That function's first parameter is the current array item itself,
+and the second (optional) parameter is the index. To increase
+readability, sometimes arrow functions are used.*/
+
 const array = ["one","two",["three","four","five"],2,true,12.05,{"name":"William","age":12,"gender":"male"},true,{"friendList":["James","Mandela","Philips","Revon"]},{name : "Timmy",age : 1}];
 array.forEach((element)=> console.log(element));
 /*one
@@ -70,4 +76,17 @@ friendDetailArray.forEach((friend)=>{console.log(friend)});//👇 output
 { name: 'Rose', age: 23, job: 'Software Engineer' }
 { name: 'Xio Me', age: 26, job: 'Architect' }
 { name: 'Cha Joon Tak', age: 24, job: 'Fashion Designer' }
+*/
+
+const vegetables = ['tomato','cabbage','brinjol','pumpkin','Beans'];
+function iteration (value, index){
+    console.log(index , value);
+}
+vegetables.forEach(iteration); //👇 output
+/*
+0 tomato
+1 cabbage
+2 brinjol
+3 pumpkin
+4 Beans
 */
