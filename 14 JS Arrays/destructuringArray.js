@@ -14,8 +14,7 @@ const friendDetailArray = [
     {name:"John",age:25,job:"Executive Officer"},
     {name:"Ferdinan",age:29,job:"Trainee Clerk"},
     {name:"Rose",age:23,job:"Software Engineer"},
-    {name:"Xio Me",age:26,job:"Architect"},
-    {name:"Cha Joon Tak",age:24,job:"Fashion Designer"}
+    {name:"Xio Me",age:26,job:"Architect"}
 ];
 console.log(friendDetailArray);
 console.log(friendDetailArray.length);
@@ -38,6 +37,5 @@ console.log(friendDetailArray);//👇 But original array does not changed
   { name: 'John', age: 25, job: 'Executive Officer' },
   { name: 'Ferdinan', age: 29, job: 'Trainee Clerk' },
   { name: 'Rose', age: 23, job: 'Software Engineer' },
-  { name: 'Xio Me', age: 26, job: 'Architect' },
-  { name: 'Cha Joon Tak', age: 24, job: 'Fashion Designer' }
+  { name: 'Xio Me', age: 26, job: 'Architect' }
 ]   */
